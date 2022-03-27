@@ -1,7 +1,8 @@
 .App {
   text-align: center;
 }
-input {
+input,
+select {
   padding: 15px;
   width: 300px;
   border: none;
@@ -10,7 +11,7 @@ input {
 }
 textarea {
   padding: 15px;
-  width: 400px;
+  width: 300px;
   border: none;
   border: 1px solid #ddd;
   margin: 10px;
@@ -71,4 +72,9 @@ h1 {
 }
 label {
   font-weight: bold;
+}
+.container {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 4px double rgb(150, 150, 150);
 }
